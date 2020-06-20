@@ -1,5 +1,5 @@
 def has_no_e(word):
-    if 'e' in word.lower():
+    if 'e' not in word.lower(): 
         return True
     return False
 
@@ -17,7 +17,7 @@ while True:
 
 
 for word in words:
-    if(has_no_e(word)):
+    if(has_no_e(word) ==True):
         found += 1
 
 cossword_file.close()

@@ -31,6 +31,7 @@ Number of duplicates:
 duplicates-removed.csv created with {len(csv_without_duplicates)} records
 """
 
+
+
 print(output)
 
-# file_with_duplicates_length = len(csv_with_duplicates) + len(csv_no_duplicates)
